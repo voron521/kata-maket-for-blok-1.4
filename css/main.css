@@ -111,16 +111,20 @@ body{
     height: 116px;
     background: url('/img/main/highlight.svg') no-repeat;
     left: 0;
-    
-    
-    
     transform: scale(0);
     transition: transform 0.3s ease-in-out;
+    display: none;
 }
 
 .main-info__link:hover::before{
     transition: transform 0.3s ease-in-out;
     transform: translate(0, -10px) scale(1);
+    display: block;
+    
+    
+}
+.main-info__link:hover{
+    color: #7E7E82;
 }
 
 .footer{
