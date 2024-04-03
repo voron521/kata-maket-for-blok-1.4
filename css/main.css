@@ -106,10 +106,9 @@ body{
 
 .main-info__link::before{
     position: absolute;
-    content: "";
+    content: url("/img/main/highlight.svg");
     width: 32px;
     height: 116px;
-    background: url('/img/main/highlight.svg') no-repeat;
     left: 0;
     transform: scale(0);
     transition: transform 0.3s ease-in-out;
