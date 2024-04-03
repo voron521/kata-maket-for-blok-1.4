@@ -106,7 +106,7 @@ body{
 
 .main-info__link::before{
     position: absolute;
-    content: url("/img/main/highlight.svg");
+    content: url('../img/main/highlight.svg');
     width: 32px;
     height: 116px;
     left: 0;
