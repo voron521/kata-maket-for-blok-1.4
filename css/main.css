@@ -17,9 +17,9 @@ body{
 .main-wrapper{
     display: flex;
     flex-direction: column;
-    height: 1024px;
+    height: auto;
     width: 320px;
-    box-shadow: 0 0 50px 3px #34495e;
+    box-shadow: 10px -10px 50px 3px #34495e;
     
 
 }
